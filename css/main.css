@@ -280,7 +280,7 @@ img {
   height: 10rem;
   background-color: #333;
   position: absolute;
-  margin-left: 1.3rem;
+  margin-left: 1.2rem;
 }
 
 .email {
@@ -429,6 +429,25 @@ img {
 #footer p {
   margin: 0 35%;
   padding: 30px 0;
+}
+
+@media (max-width: 1300px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+  .social-media {
+    left: 1rem;
+  }
+  .social-media i {
+    font-size: 1.5rem;
+  }
+  .email {
+    top: 20.3rem;
+  }
+  .contact-content {
+    padding-top: 20%;
+  }
 }
 
 @media (max-width: 900px) {
